@@ -1,0 +1,434 @@
+((("glLoadIdentity" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("(int i)" .
+   [0 0 0 0 0 0 1])
+  ("point" .
+   [0 1 0 0 0])
+  ("(const GLfloat *v)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("glVertex3fv" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("iterator" .
+   [0 1 0 0 0 0 0 1])
+  ("specular_color_" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("diffuse_color_" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("(GLenum face, GLenum pname, const GLfloat *params)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("glMaterialfv" .
+   [0 0 0 0 0 0 0 2 0 0 1 0])
+  ("(GLenum face, GLenum pname, GLfloat param)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("glMaterialf" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("color" .
+   [0 0 0 1 0])
+  ("intensity" .
+   [0 0 0 0 1 0 0 0 0])
+  ("ambient_intensity_" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("(Hidden) : X3Node::Render()" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Render" .
+   [0 1 0 0 0 0])
+  ("X3GroupingNode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("glScalef" .
+   [0 0 0 1 0 0 0 0])
+  ("axis" .
+   [1 0 0 0])
+  ("angle_rad" .
+   [1 0 0 0 0 0 0 0 0])
+  ("(GLfloat angle, GLfloat x, GLfloat y, GLfloat z)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("glRotatef" .
+   [0 0 0 0 0 0 1 0 1])
+  ("(GLfloat x, GLfloat y, GLfloat z)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5])
+  ("glTranslatef" .
+   [0 0 0 0 1 1 2 0 0 0 0 0])
+  ("glPushMatrix" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("glMatrixMode" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("(double)" .
+   [0 0 0 0 0 0 0 1])
+  ("sin" .
+   [1 0 0])
+  ("radius_" .
+   [0 0 0 0 1 0 0])
+  ("(const XVec<3, float> &c)" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("fovy" .
+   [0 1 0 0])
+  ("z" .
+   [2])
+  ("(const XVec<4, float> &c)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("cross" .
+   [0 3 0 0 2])
+  ("norm" .
+   [1 2 0 0])
+  ("outFilePtr" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("(char arg0)" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("fillResult" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("(int type, char *arg0, char *arg1, char *arg2, int labelNum, int *labelAddr, char (*labelName)[1000], int PC)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("ItypeResult" .
+   [1 0 0 0 0 0 0 0 0 0 4])
+  ("(char *arg2, int labelNum, int *labelAddr, char (*labelName)[1000])" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("(int type, char *arg0, char *arg1, char *arg2)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("RtypeResult" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("swab" .
+   [1 0 0 0])
+  ("(int op, char *arg0, char *arg1)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("getLineResult" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 1])
+  ("BaryComputeLamda2" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("(int x1, int y1, int x2, int y2, int x3, int y3, int x, int y)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("BaryComputeLamda1" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("drawTri" .
+   [0 0 0 0 1 0 0])
+  ("(int x0, int y0, int x1, int y1, int x2, int y2)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("orient2D" .
+   [1 0 0 0 0 0 0 0])
+  ("min" .
+   [0 1 0])
+  ("screen_width" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("(const _Tp &__a, const _Tp &__b)" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("max" .
+   [0 1 0])
+  ("x1" .
+   [1 0])
+  ("findMax3" .
+   [0 0 0 0 1 0 0 1])
+  ("(int a, int b, int c)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("findMin3" .
+   [0 0 0 0 1 1 0 0])
+  ("inFilePtr" .
+   [0 0 0 0 0 1 0 0 0])
+  ("labelAddr" .
+   [0 0 0 0 0 0 0 0 1])
+  ("isNumber" .
+   [0 0 0 0 0 0 0 2])
+  ("longest_common_subsequence" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("(string X, string Y)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("longest_common_substring" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("o" .
+   [1])
+  ("isSell" .
+   [0 0 0 0 0 1])
+  ("equities" .
+   [0 0 0 0 1 0 0 0])
+  ("generator_timestamp" .
+   [0 0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("uniform_int_distribution" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("pre_timestamp" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("quantity" .
+   [0 0 0 0 0 0 0 4])
+  ("price" .
+   [0 0 0 0 2])
+  ("(BigInt &pre_timestamp, BigInt timestamp, string name, string isSell, string equitySymbol, string price, string quantity)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("isValidOrderInput" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("buy_or_sell" .
+   [0 0 0 0 0 0 0 0 0 0 3])
+  ("equitySymbol" .
+   [0 0 1 1 1 2 0 0 0 0 0 4])
+  ("timestamp" .
+   [3 0 0 0 1 1 0 0 0])
+  ("Num_Random_Zombies" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Player_Health" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 2])
+  ("Quiver_Capacity" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("const" .
+   [0 0 0 0 1])
+  ("Random_Seed" .
+   [0 0 0 0 0 0 0 0 0 0 4])
+  ("empty" .
+   [0 0 1 0 2])
+  ("()" .
+   [2 43])
+  ("update_priorities" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("distance" .
+   [2 2 0 0 0 0 0 0])
+  ("Max_Rand_Distance" .
+   [0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("speed" .
+   [0 0 0 1 0])
+  ("Max_Rand_Speed" .
+   [0 0 0 2 1 0 0 0 0 0 0 0 0 0])
+  ("damage" .
+   [0 1 0 0 0 1])
+  ("Max_Rand_Damage" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("name" .
+   [7 0 0 0])
+  ("push_back" .
+   [2 1 0 0 0 0 0 0 2])
+  ("(const_reference __x)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("push" .
+   [1 1 0 0])
+  ("(Zombie *const &val)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("Round_in" .
+   [0 0 0 0 0 0 0 2])
+  ("Player_Quivers" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("top" .
+   [1 0 1])
+  ("pop" .
+   [0 1 0])
+  ("Player_isWin" .
+   [0 0 0 0 0 0 1 1 0 0 0 0])
+  ("killed" .
+   [0 0 0 1 0 0])
+  ("back" .
+   [0 0 1 0])
+  ("size" .
+   [0 0 1 1])
+  ("begin" .
+   [1 1 2 0 3])
+  ("rend" .
+   [0 1 0 0])
+  ("end" .
+   [1 2 1])
+  ("Activity_comp" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("round" .
+   [3 0 0 0 0])
+  ("verbose" .
+   [0 0 0 0 0 0 1])
+  ("str" .
+   [0 0 1])
+  ("flush" .
+   [0 0 1 0 0])
+  ("printHelp" .
+   [0 0 0 0 0 1 0 0 0])
+  ("process" .
+   [1 0 0 0 0 0 0])
+  ("(order *o, bool &median, BigInt &current_timestamp, int &orderbook, int all_orders)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Commission_Earnings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("TotalMoneyTransfered" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Num_of_Completed_Trades" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Num_of_Shares_Trade" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("buy" .
+   [1 0 0])
+  ("sell" .
+   [1 0 0 0])
+  ("second" .
+   [1 0 0 0 0 1])
+  ("profit" .
+   [1 0 0 0 0 0])
+  ("buy_timestamp" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("timeTravelersMap" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0])
+  ("clientsMap" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("timeTraveler" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("getDistance" .
+   [0 0 0 2 0 0 0 0 0 0 0])
+  ("front" .
+   [0 1 0 0 0])
+  ("pop_front" .
+   [0 0 1 0 0 0 0 0 0])
+  ("push_front" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("(const value_type &__v)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("pop_back" .
+   [0 0 0 0 0 0 0 1])
+  ("mode" .
+   [1 0 0 0])
+  ("isThreeWidth" .
+   [0 0 0 0 0 0 0 0 0 0 0 4])
+  ("glBegin" .
+   [2 0 0 0 0 0 0])
+  ("(GLenum mode)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("glEnd" .
+   [0 0 0 2 0])
+  ("glVertex2i" .
+   [0 0 0 0 1 0 0 0 0 1])
+  ("(GLint x, GLint y)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("glutMouseFunc" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("(void (*func)(int, int, int, int))" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("glutMotionFunc" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("(void (*func)(int, int))" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("GLfloat" .
+   [0 0 0 0 0 0 2])
+  ("drawpoint" .
+   [0 0 1 0 1 0 0 0 0])
+  ("(GLint x, GLint y, GLclampf r, GLclampf g, GLclampf b)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("drawLine" .
+   [1 0 0 0 1 0 0 0])
+  ("(int x0, int x1, int y0, int y1, int p1, int p2, GLboolean isPos, GLboolean isSwap)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("NumberGetAddress" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("(char *arg2)" .
+   [0 0 0 0 0 0 0 0 0 0 0 6])
+  ("notNumberGetAddress" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7])
+  ("(int arg2)" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("(char *arg2, int labelNum, int *labelAddr, int (*labelName)[1000])" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("labelName" .
+   [0 0 0 0 0 1 0 0 0])
+  ("labelNum" .
+   [0 0 0 0 0 0 1 0])
+  ("convertMachineCode" .
+   [0 0 0 0 0 0 3 1 0 0 0 0 0 0 0 0 0 0])
+  ("(int machinecode, int lo, int hi)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4])
+  ("pc" .
+   [1 0])
+  ("reg" .
+   [2 0 0])
+  ("mem" .
+   [1 0 1])
+  ("printState" .
+   [0 0 0 0 0 2 0 0 0 0])
+  ("(int *statePtr)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("getCommand" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("(int machinecode)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("isHalt" .
+   [0 0 0 0 0 1])
+  ("executionNumber" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("drawPoint" .
+   [0 0 0 0 2 0 0 0 0])
+  ("(XVec2f &point, XVec4f &pointColor, XVec4f &clipView)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("deltaC" .
+   [0 0 0 0 0 1])
+  ("Line" .
+   [1 0 0 0])
+  ("LineClipping" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("(XVec2f &vertex0, XVec2f &vertex1, XVec4f &clipWin)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("color0" .
+   [0 0 0 1 0 0])
+  ("containsPoint" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("(XVec2f &point, XVec4f &pointColor)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("isAntialiased" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("operator*" .
+   [2 0 0 0 0 0 0 0 0])
+  ("(XVec<vDim, float> u)" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("transform" .
+   [1 0 0 0 0 0 0 0 0])
+  ("glDrawElements" .
+   [0 0 0 0 0 0 1 0 0 0 1 0 0 0])
+  ("(GLenum mode, GLsizei count, GLenum type, const GLvoid *indices)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("MatModView" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("boom" .
+   [1 0 0 0])
+  ("(float delta)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("dolly" .
+   [0 0 0 0 1])
+  ("roll" .
+   [0 1 0 0])
+  ("(float theta)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("pan" .
+   [1 0 0])
+  ("THETA_PER_PIXEL" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("u" .
+   [1])
+  ("e" .
+   [1])
+  ("x" .
+   [5])
+  ("XMat" .
+   [1 0 0 0])
+  ("operator=" .
+   [0 0 0 0 1 0 0 0 0])
+  ("(const XMat<4, float> &c)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dot" .
+   [0 2 0])
+  ("glRotated" .
+   [0 0 0 0 1 0 0 0 0])
+  ("(GLdouble angle, GLdouble x, GLdouble y, GLdouble z)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("cube_array" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("w" .
+   [1])
+  ("normalize" .
+   [0 0 2 2 2 0 0 0 0])
+  ("setup_view" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("(transform_t mode)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("objlight_specular" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 2])
+  ("length" .
+   [1 1 0 0 0 2])
+  ("s" .
+   [1])
+  ("checkUniqueChar" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("counter1" .
+   [0 0 0 1 0 0 0 0])
+  ("isPermutation" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 1])
+  ("(string s1, string s2)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("replaceSpace" .
+   [0 0 0 2 0 0 0 0 0 0 0 0])
+  ("(string str)" .
+   [0 0 0 0 0 0 0 0 0 0 0 2])
+  ("append" .
+   [0 0 1 0 0 0])))

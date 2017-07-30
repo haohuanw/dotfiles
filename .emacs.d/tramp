@@ -1,0 +1,23 @@
+;; -*- emacs-lisp -*- <14/05/24 06:30:37 /Users/wanghaohuan/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["scpc" "haohuanw" "login.engin.umich.edu" nil nil]
+  ("uname" "Linux 2.6.32-431.17.1.el6.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("busybox" nil)
+  ("~" "/afs/umich.edu/user/h/a/haohuanw")
+  ("file-exists" "test -e")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 22)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("readlink" "\\readlink")
+  ("uid-integer" 99429494)))
