@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/haohuanw/.oh-my-zsh
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -8,7 +7,7 @@ export ZSH=/Users/haohuanw/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
-CASE_SENSITIVE="true"
+CASE_SENSITIVE="flase"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
@@ -49,13 +48,13 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python tmux tmuxinator virtualenv virtualenvwrapper brew)
+plugins=(git python tmux tmuxinator virtualenv virtualenvwrapper brew autojump)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
-
+export PATH=$PATH:/usr/local/mysql/bin:/Library/Tex/texbin
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -85,8 +84,12 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias venv_activate="source venv/bin/activate" 
 alias ls="ls -G"
-
+alias mysql_start="sudo /usr/local/mysql/support-files/mysql.server start"
+alias mysql_end="sudo /usr/local/mysql/support-files/mysql.server stop"
+alias mysql="/usr/local/mysql/bin/mysql"
+alias mysqladmin="/usr/local/mysql/bin/mysqladmin"
 #set powerline with zsh
 if [[ -r /Library/python/2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
     source /Library/python/2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
+eval $(/usr/libexec/path_helper -s)
