@@ -1,62 +1,34 @@
 set nocompatible              " be iMproved, required
 filetype plugin on                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Git plugin not hosted on GitHub
-" git repos on your local machine (i.e. when working on your own plugin)
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Avoid a name conflict with L9
-" All of your Plugins must be added before the following line
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'tomasr/molokai'
-Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'Glench/Vim-Jinja2-Syntax'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
-Plugin 'ervandew/supertab'
-Plugin 'kien/ctrlp.vim'
-Plugin 'lervag/vimtex'
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-
-" Poweline setup
-set rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim
+call plug#begin('~/.vim/plugged')
+Plug 'gmarik/Vundle.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
+Plug 'tomasr/molokai'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdcommenter'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'SirVer/ultisnips' , {'do': 'mkdir -p ~/.vim/after/plugin && ln -s ~/.vim/plugged/ultisnips/after/plugin/* ~/.vim/after/plugin && mkdir -p ~/.vim/ftdetect && ln -s ~/.vim/plugged/ultisnips/ftdetect/* ~/.vim/ftdetect' }
+Plug 'honza/vim-snippets'
+Plug 'ervandew/supertab'
+Plug 'kien/ctrlp.vim'
+Plug 'lervag/vimtex'
+call plug#end()
 
 " These lines setup the environment to show graphics and colors correctly.
 set nocompatible
 set t_Co=256
  
 let g:minBufExplForceSyntaxEnable = 1
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
  
 if ! has('gui_running')
    set ttimeoutlen=10
